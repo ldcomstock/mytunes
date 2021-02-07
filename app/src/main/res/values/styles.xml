@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="track_property_primary"
+        parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/result_primary_detail_textsize</item>
+        <item name="android:paddingStart">@dimen/track_property_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/track_property_horizontal_padding</item>
+        <item name="android:layout_gravity">start</item>
+    </style>
+
+    <style
+        name="track_property_secondary"
+        parent="@style/track_property_primary">
+        <item name="android:textSize">@dimen/result_secondary_detail_textsize</item>
+    </style>
+
+</resources>

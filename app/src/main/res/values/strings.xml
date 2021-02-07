@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyTunes</string>
+    <string name="enter_artist_hint">Enter Artist</string>
+    <string name="search_tracks">Search Tracks</string>
+    <string name="results_header_loading">Loading tracks…</string>
+    <string name="results_header_error">Error fetching results</string>
+    <string name="results_header_loaded">Tracks found</string>
+    <string name="results_header_results_below">Search results will appear below</string>
+    <string name="results_header_no_results">No tracks found for artist</string>
+    <string name="result_track_price">Price \u0024%1$s</string>
+    <string name="result_genre">Genre: %1$s</string>
+    <string name="result_release_date">Released %1$s</string>
+    <string name="result_item_artist_not_found">[ artist name not found ]</string>
+    <string name="result_item_track_name_not_found">[ track name not found ]</string>
+    <string name="result_item_track_price_not_found">[ track price not found ]</string>
+    <string name="result_item_release_date_not_found">[ release date not found ]</string>
+    <string name="result_item_genre_not_found">[ genre not found ]</string>
+    <string name="image_desc_loading_spinner">loading spinner</string>
+</resources>

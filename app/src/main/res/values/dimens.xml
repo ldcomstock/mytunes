@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="result_primary_detail_textsize">18sp</dimen>
+    <dimen name="result_secondary_detail_textsize">14sp</dimen>
+    <dimen name="track_property_horizontal_padding">8dp</dimen>
+    <dimen name="result_card_vertical_padding">8dp</dimen>
+</resources>

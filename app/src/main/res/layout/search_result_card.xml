@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="result"
+            type="com.example.mytunes.resultlist.model.SearchResultItem" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingVertical="@dimen/result_card_vertical_padding"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="8dp">
+
+            <TextView
+                style="@style/track_property_primary"
+                android:id="@+id/artistName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:artistName="@{result.artistName}"
+                tools:text="artist name">
+            </TextView>
+
+            <TextView
+                style="@style/track_property_primary"
+                android:id="@+id/trackName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                app:trackName="@{result.trackName}"
+                tools:text="track name">
+            </TextView>
+
+            <TextView
+                style="@style/track_property_secondary"
+                android:id="@+id/releaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:releaseDate="@{result.releaseDate}"
+                tools:text="released mm/dd/yy">
+            </TextView>
+
+            <TextView
+                style="@style/track_property_secondary"
+                android:id="@+id/genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:genre="@{result.primaryGenreName}"
+                tools:text="Alternative">
+            </TextView>
+
+            <TextView
+                style="@style/track_property_secondary"
+                android:id="@+id/trackPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:trackPrice="@{result.trackPrice}"
+                tools:text="Price $2.99">
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
+
+
